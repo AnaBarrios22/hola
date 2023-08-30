@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anna Store - Tienda de Ropa</title>
+    <link rel="stylesheet" href="analol.css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="anabar.js.js">
+</head>
+
+<body>
+    <header>
+      <img0 src="https://1fid.com/wp-content/uploads/2021/06/a_name_wallpaper-1-scaled.jpg" alt="Anna clothes shop" width="70" height="70">
+<nav class="navbar bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+    </a>
+  </div>
+  <script src="js.poryecto/poryecto.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">
+</nav>
+      
+
+<nav class="navbar">
+  <div class="logo">
+      <a href="#">Anna Store - Tienda de Ropa</a>
+  </div>
+  <ul class="nav-links">
+      <li><a href="#">Inicio</a></li>
+      <li class="dropdown">
+          <a href="#">Catálogo</a>
+          
+          <div class="dropdown-content">
+              <a href="#">Pantalones</a>
+              <a href="#">Vestidos</a>
+              <a href="#">Tops</a>
+              <a href="#">Abrigos</a>
+              <a href="#">Accesorios</a>
+              
+         
+          
+      </li>
+      <li><a href="#">Ofertas</a></li>
+      <li><a href="#">Contacto</a></li>
+    
+    </div>
+</body>
+</html>
+  </div>
+    
+ </header>
+</body>
+  </ul>
+ </header>
+
+<!-- Contenido de la página -->
+
+
+
+<div class="products">
+    <body>
+
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, sans-serif;
+  }
+
+  
+  .carousel {
+    width: 80%;
+    max-width: 800px;
+    overflow: hidden;
+    position: relative;
+  }
+ 
+
+  .carousel-inner {
+    display: flex;
+    transition: transform 1s ease-in-out;
+  }
+
+  .carousel-slide {
+    flex: 0 0 100%;
+  }
+
+  img {
+    width: 80%;
+    height: 100;
+  }
+
+  .carousel-caption {
+    position: flex;
+    bottom: 20px;
+    left: 100%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    padding: 20px 20px;
+    border-radius: 5px;
+  }
+</style>
+</head>
+<body>
+  <div class="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-slide">
+        <img src="https://deerdoll.com/cdn/shop/products/Butterfly-Angel-Sparkle-Princess-Lolita-Fairy-Dress-232_2048x.jpg?v=1663999806" alt="Moda 1">
+
+      </div>
+      <div class="carousel-slide">
+        <img src="https://cdn11.bigcommerce.com/s-c7qlm8a06j/images/stencil/original/products/2192/20094/soft-girl-floral-puff-sleeve-white-crop-top-cosmique-studio__09507.1644007852.jpg?c=1" alt="Moda 2">
+      </div>
+      <div class="carousel-slide">
+        <img src="https://www.dhresource.com/kuromi-cute-tops-print-hoodie-vintage-harajuku/0x0-f2-albu-g16-M01-FF-57-rBVa4GAc5wSASsLIAAdEFTUq1Pc398.jpg.webpg" alt="Moda 3">
+      </div>
+      <div class="carousel-slide">
+        <img src="https://down-co.img.susercontent.com/file/a1addc9d8b2926b3e68e03bdab81d624" alt="Moda 4">
+      </div>
+      <div class="carousel-slide">
+        <img src="https://down-mx.img.susercontent.com/file/b6de5fe154b14062dc1e533ad06549b7" alt="Moda 4">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const carouselInner = document.querySelector('.carousel-inner');
+    const slides = document.querySelectorAll('.carousel-slide');
+    const slideWidth = slides[0].clientWidth;
+    let currentIndex = 0;
+
+    function moveToNextSlide() {
+      currentIndex = (currentIndex + 1) % slides.length;
+      const offset = -currentIndex * slideWidth;
+      carouselInner.style.transform = `translateX(${offset}px)`;
+    }
+
+    setInterval(moveToNextSlide, 2000); // Cambiar de imagen cada 1 segundos
+  </script>
+</body>
+
+
+
+
+
+
+
+
+    <title>Anna Store - Tienda de Ropa</title>
+    <style>
+        
+        .product-container {
+            border: 3px solid #d8d8d8;
+            padding: 5px;
+            margin: 5px;
+            display: inline-block;
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, sans-serif;
+            width: 360px;
+        }
+        .product-container img {
+            max-width: 1100px;
+        }
+
+        .add-to-cart {
+        background-color: black;
+        color: white; /
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, sans-serif;
+    }
+    </style>
+</head>
+<body>
+
+
+
+
+
+
+    
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+    
+    <div id="cart">
+        <h2>Carrito</h2>
+        <ul id="cart-items">
+            <!-- Elementos del carrito se agregarán aquí dinámicamente -->
+            
+        </ul>
+        
+        <button onclick="mostrarAlerta()"><p>Total a pagar: $<span id="cart-total">0</span></p>
+        <script>
+            function mostrarAlerta() {
+              alert("¡Gracias por su compra!");
+            }
+          </script>
+        </head>
+        <body>
+       
+        </body>
+        </html>
+        
+        
+    </div>
+    <div class="products">
+        <div class="product-container">
+            <img src="https://img.fruugo.com/product/6/61/776556616_max.jpg" alt="Producto 1">
+            <h2>Cargo pants</h2>
+            <p>Precio: $27.99</p>
+            <label>Tamaño:</label>
+            <select class="size">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+            <label>Color:</label>
+            <select class="color">
+                <option value="negro">Negro</option>
+                <option value="azul">Azul</option>
+                <option value="verde">Verde</option>
+                <option value="blanco">Blanco</option>
+            </select>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+        <!-- Agregar más productos aquí... -->
+        <div class="products">
+            <div class="product-container">
+                <img src="https://down-mx.img.susercontent.com/file/b6de5fe154b14062dc1e533ad06549b7" alt="Producto 2">
+                <h2>Kuromi and my melody gothic pants</h2>
+                <p>Precio: $24.99</p>
+                <label>Tamaño:</label>
+                <select class="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+                <label>Color:</label>
+                <select class="color"> 
+                    <option value="negro">Negro</option>
+                    <option value="azul">Azul</option>
+                    <option value="verde">Verde</option>
+                    <option value="blanco">Blanco</option>
+                </select>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+    </div>
+
+    <div class="products">
+        <div class="product-container">
+            <img src="https://www.dhresource.com/0x0/f2/albu/g15/M01/B0/C4/rBVa3l-f4CuAaVoVAADOqavYfOA202.jpg/2020-aesthetic-mesh-vintage-gothic-dresses.jpg" alt="Producto 3">
+            <h2>Gothic dress</h2>
+            <p>Precio: $24.99</p>
+            <label>Tamaño:</label>
+            <select class="size">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+            <label>Color:</label>
+            <select class="color">
+                <option value="negro">Negro</option>
+                <option value="azul">Azul</option>
+                <option value="verde">Verde</option>
+                <option value="blanco">Blanco</option>
+            </select>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+</div>
+
+<div class="products">
+    <div class="product-container">
+        <img src="https://deerdoll.com/cdn/shop/products/Butterfly-Angel-Sparkle-Princess-Lolita-Fairy-Dress-232_2048x.jpg?v=1663999806" alt="Producto 4">
+        <h2>Butterfly dress</h2>
+        <p>Precio: $32.99</p>
+        <label>Tamaño:</label>
+        <select class="size">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+        </select>
+        <label>Color:</label>
+        <select class="color">
+            <option value="negro">Negro</option>
+            <option value="azul">Azul</option>
+            <option value="verde">Verde</option>
+            <option value="blanco">Blanco</option>
+        </select>
+        <button class="add-to-cart">Agregar al carrito</button>
+    </div>
+</div>
+
+<div class="products">
+    <div class="product-container">
+        <img src="https://ae01.alicdn.com/kf/Sbd6570d40cd44a56a7804b8bf5252c62x.jpg_640x640Q90.jpg_.webp" alt="Producto 5">
+        <h2>Spiderman top</h2>
+        <p>Precio: $13.99</p>
+        <label>Tamaño:</label>
+        <select class="size">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+        </select>
+        <label>Color:</label>
+        <select class="color">
+            <option value="negro">Negro</option>
+            <option value="azul">Azul</option>
+            <option value="verde">Verde</option>
+            <option value="blanco">Blanco</option>
+        </select>
+        <button class="add-to-cart">Agregar al carrito</button>
+    </div>
+</div>
+
+
+<div class="products">
+    <div class="product-container">
+        <img src="https://img.joomcdn.net/82d8c8db30a9b8e4dd5489ff8ee5fed5816b058e_original.jpeg" alt="Producto 5">
+        <h2>Cats top</h2>
+        <p>Precio: $12.99</p>
+        <label>Tamaño:</label>
+        <select class="size">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+        </select>
+        <label>Color:</label>
+        <select class="color">
+            <option value="negro">Negro</option>
+            <option value="azul">Azul</option>
+            <option value="verde">Verde</option>
+            <option value="blanco">Blanco</option>
+        </select>
+        <button class="add-to-cart">Agregar al carrito</button>
+    </div>
+</div>
+
+
+<div class="products">
+    <div class="product-container">
+        <img src="https://image.made-in-china.com/202f0j00uHrqeonchakI/Womens-Fashionable-Long-Sleeved-Sweatshirt-Top-Mushroom-Printed-Pullover.jpg" alt="Producto 5">
+        <h2>Fungi hoodie</h2>
+        <p>Precio: $68.99</p>
+        <label>Tamaño:</label>
+        <select class="size">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+        </select>
+        <label>Color:</label>
+        <select class="color">
+            <option value="negro">Negro</option>
+            <option value="azul">Azul</option>
+            <option value="verde">Verde</option>
+            <option value="blanco">Blanco</option>
+        </select>
+        <button class="add-to-cart">Agregar al carrito</button>
+    </div>
+</div>
+
+
+<div class="products">
+    <div class="product-container">
+        <img src="https://www.dhresource.com/kuromi-cute-tops-print-hoodie-vintage-harajuku/0x0-f2-albu-g19-M01-F2-1D-rBVapmCSViKAJbeMAAHLd9P3Zq0231.jpg.webp" alt="Producto 5">
+        <h2>Kuromi hoodie</h2>
+        <p>Precio: $64.99</p>
+        <label>Tamaño:</label>
+        <select class="size">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+        </select>
+        <label>Color:</label>
+        <select class="color">
+            <option value="negro">Negro</option>
+            <option value="azul">Azul</option>
+            <option value="verde">Verde</option>
+            <option value="blanco">Blanco</option>
+        </select>
+        <button class="add-to-cart">Agregar al carrito</button>
+    </div>
+</div>
+
+
+
+<div class="products">
+    <div class="product-container">
+        <img src="https://down-co.img.susercontent.com/file/a1addc9d8b2926b3e68e03bdab81d624" alt="Producto 5">
+        <h2>Butterfly necklace</h2>
+        <p>Precio: $11.99</p>
+        <label>Tamaño:</label>
+        <select class="size">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+        </select>
+        <label>Color:</label>
+        <select class="color">
+            <option value="negro">Negro</option>
+            <option value="azul">Azul</option>
+            <option value="verde">Verde</option>
+            <option value="blanco">Blanco</option>
+        </select>
+        <button class="add-to-cart">Agregar al carrito</button>
+    </div>
+</div>
+
+
+<div class="products">
+    <div class="product-container">
+        <img src="https://ae01.alicdn.com/kf/Sed2cf969eba841c6b57410099e878dc5W.jpg_640x640Q90.jpg_.webp" alt="Producto 5">
+        <h2>Stars bracelet</h2>
+        <p>Precio: $7.99</p>
+        <label>Tamaño:</label>
+        <select class="size">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+        </select>
+        <label>Color:</label>
+        <select class="color">
+            <option value="negro">Negro</option>
+            <option value="azul">Azul</option>
+            <option value="verde">Verde</option>
+            <option value="blanco">Blanco</option>
+        </select>
+        <button class="add-to-cart">Agregar al carrito</button>
+    </div>
+</div>
+
+
+<script>
+    const addToCartButtons = document.querySelectorAll('.add-to-cart');
+    const cartItems = [];
+    let cartTotal = 0;
+
+    function updateCart() {
+        const cartList = document.getElementById('cart-items');
+        cartList.innerHTML = '';
+
+        cartItems.forEach((item, index) => {
+            const li = document.createElement('li');
+            li.className = 'cart-item';
+            li.innerHTML = `
+                ${item.name} - $${item.price} - Tamaño: ${item.size} - Color: ${item.color}
+                <button class="remove-from-cart" data-index="${index}">X</button>
+            `;
+            cartList.appendChild(li);
+        });
+
+        document.getElementById('cart-total').textContent = cartTotal.toFixed(2);
+
+        const removeButtons = document.querySelectorAll('.remove-from-cart');
+        removeButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const index = button.getAttribute('data-index');
+                removeItemFromCart(index);
+            });
+        });
+    }
+
+    function addToCart(name, price, size, color) {
+        cartItems.push({ name, price, size, color });
+        cartTotal += price;
+        updateCart();
+    }
+
+    function removeItemFromCart(index) {
+        const removedItem = cartItems.splice(index, 1)[0];
+        cartTotal -= removedItem.price;
+        updateCart();
+    }
+
+    addToCartButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const product = button.parentNode;
+            const productName = product.querySelector('h2').textContent;
+            const productPrice = parseFloat(product.querySelector('p').textContent.split('$')[1]);
+            const productSize = product.querySelector('.size').value;
+            const productColor = product.querySelector('.color').value;
+            addToCart(productName, productPrice, productSize, productColor);
+        });
+    });
+</script> 
+
+
+
+  
+
+
+
+
+</html>
+<script src="anabar.js.js"></script>
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+    <p>&copy; 2023 Anna Store. Todos los derechos reservados.</p>
+</div>
+</footer>
+</body>
+
+</html>
+
